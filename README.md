@@ -1,2 +1,2 @@
-# portfolio
-My Portfolio
+# About Me
+My personal portfolio
