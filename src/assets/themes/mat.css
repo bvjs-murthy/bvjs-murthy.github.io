@@ -1,0 +1,19 @@
+html.mat {
+    --bg: #171717;
+
+    --surface-1: #1F1F1F;
+    --surface-2: #262626;
+
+    --border: #333333;
+
+    --text-p: #EAEAEA;
+    --text-s: #A3A3A3;
+    --text-m: #737373;
+
+    --accent: #D97706;
+    --accent-h: #F59E0B;
+
+    --success: #4D7C0F;
+    --warning: #B45309;
+    --danger: #991B1B;
+}
