@@ -1,0 +1,159 @@
+/* --- BASE RESUME STYLES (Google Standard & ATS Safe) --- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Standard web-safe fonts preferred by ATS */
+    font-size: 10.5pt; /* Crisp, standard text sizing */
+    line-height: 1.4;
+    color: #333333;
+    background-color: #ffffff;
+    padding: 0.5in; /* Emulates standard MS Word page margins */
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* --- HEADER --- */
+.resume-header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.candidate-name {
+    font-size: 24pt;
+    font-weight: bold;
+    color: #111111;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.candidate-title {
+    font-size: 11pt;
+    color: #555555;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.contact-info {
+    margin-top: 8px;
+    font-size: 9.5pt;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact-item {
+    display: inline-flex;
+    align-items: center;
+    color: #333333;
+}
+
+.contact-item a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+/* --- ACCESSIBLE ICONS --- */
+.icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+    fill: #444444; /* Dark neutral color for strict professional look */
+    vertical-align: middle;
+}
+
+/* Screen reader only helper (ATS reads this text, skips visual SVG) */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* --- SECTIONS --- */
+.resume-section {
+    margin-top: 15px;
+}
+
+.section-title {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #003366; /* Elegant corporate dark blue */
+    text-transform: uppercase;
+    border-bottom: 1px solid #003366; /* Crisp structural separator lines */
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+}
+
+.summary-text {
+    text-align: justify;
+}
+
+/* --- ENTRIES (Shared rules for education, projects, experience) --- */
+.education-entry, .project-entry, .experience-entry {
+    margin-bottom: 10px;
+}
+
+.entry-header, .entry-subheader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.entry-date, .entry-location {
+    font-size: 10pt;
+    color: #444444;
+}
+
+/* --- LISTS --- */
+.bullet-list {
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.bullet-list li {
+    margin-bottom: 2px;
+    text-align: justify;
+}
+
+/* --- TECHNICAL SKILLS MATRIX --- */
+.skills-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.skills-row {
+    display: grid;
+    grid-template-columns: 140px 1fr; /* Rigid clean grid layout */
+}
+
+.skills-category {
+    font-weight: bold;
+}
+
+/* --- PRINT RULES (Optimizes PDF generation) --- */
+@media print {
+    body {
+        padding: 0;
+    }
+    .resume-container {
+        max-width: 100%;
+    }
+}
