@@ -5,11 +5,23 @@
 }
 
 body {
+    font-family: "JetBrains Mono", monospace;
+    line-height: 1.4;
+    letter-spacing: 0.8px;
+    margin: 0;
+    padding: 0;
+}
+
+.board{
     background: var(--bg);
-    color: var(--text-p);
-    font-family: Inter, sans-serif;
-    padding: 40px;
-    line-height: 1.6;
+    height: calc(100dvh - 0px);
+    width: calc(100dvw - 0px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px;
 }
 
 .container {
