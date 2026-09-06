@@ -12,37 +12,7 @@ This is collection of data that i can put on my resume.
 - Email: bvjsmurthy90@gmail.com
 
 ### About
-I'm a Computer Science student who enjoys building software from the ground up. I like understanding 
-how things work beneath the surface, whether it's designing backend services, implementing 
-communication between components, or exploring the fundamentals that make systems reliable.
-
-Most of my time is spent building projects rather than following tutorials. I primarily work with 
-Java and enjoy exploring C++, Go, and AI as I continue to expand my toolkit. Through these projects, 
-I've developed experience with C, Python, React, Node.js, and modern development workflows.
-
-I'm particularly interested in backend engineering, distributed systems, computer networks, 
-operating systems, and intelligent applications. I enjoy solving problems that require balancing 
-clean architecture, performance, and maintainability.
-
-Currently, I'm focused on strengthening my computer science fundamentals while building projects 
-that challenge me to think like a software engineer.
-
----
-
-I'm a Computer Science student who enjoys building software from the ground up. Understanding how 
-systems work beneath the surface is what motivates me, from backend architecture to inter-process 
-communication and networking.
-
-I learn best by building. Most of my experience comes from creating projects that push me to explore 
-new technologies and apply core computer science concepts. Java is my primary language, and I'm 
-currently exploring C++, Go, and AI while continuing to work with C, Python, React, and Node.js.
-
-I'm especially interested in backend engineering, distributed systems, and intelligent applications. 
-My goal is to build software that's reliable, maintainable, and thoughtfully designed—not just 
-functional.
-
-Outside of coding, I'm constantly improving my understanding of the fundamentals because I believe 
-strong engineering starts with strong foundations.
+...
 
 ---
 
@@ -53,9 +23,6 @@ strong engineering starts with strong foundations.
 
 ### Currently Learning
 - Java Fullstack
-
-### Looking For
-- Internship
 
 ### Current Focus
 - MDCS, DSA, Java, Core CS
@@ -78,9 +45,9 @@ strong engineering starts with strong foundations.
 
 ### Languages
 - Java
-- C
 - C++
 - Python
+- C
 - Go
 - JavaScript
 
@@ -109,11 +76,7 @@ PostgreSQL
 
 ### MDCS (Multi Device Connectivity System)
 
-**Status**
-- Active
-
 **Description**
-...
 
 **Tech Stack**
 
@@ -140,8 +103,6 @@ Short description.
 
 ## Featured Projects
 -
--
--
 
 ---
 
@@ -150,7 +111,7 @@ Short description.
 ### GITAM University
 - Degree: B.Tech - CSE
 - Duration: 2024 - Present
-- CGPA: 9.31 (After sem-5)
+- CGPA: 9.31 (After sem-4)
 - Relevant Coursework:
     - OOP
     - DBMS
@@ -212,22 +173,6 @@ Email: bvjsmurthy90@gmail.com
 LinkedIn: linkedin.com/in/bvjsmurthy
 GitHub: github.com/bvjs-murthy
 Instagram: ...
-
----
-
-## Portfolio Metadata
-#### Theme
-```
-Background     #0D1117
-Card           #161B22
-Border         #30363D
-Primary text   #F0F6FC
-Secondary      #8B949E
-Green          #3FB950
-Blue           #58A6FF
-Orange         #D29922
-Purple         #A371F7
-```
 
 ---
 
